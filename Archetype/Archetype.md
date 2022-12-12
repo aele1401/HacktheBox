@@ -58,7 +58,7 @@
 		
 	![Diagram](https://github.com/aele1401/HacktheBox/blob/main/Archetype/Images/flag.txt.png)
 
-## winPEAS
+## Privilege Escalation (winPEAS)
 
 * `WinPEAS script` can be used in order to search possible paths to escalate privileges on Windows hosts. Since there is no access to the Admin directory, winPEAS will be used to acquire the admin credentials.
 	* Enter `powershell` 
@@ -75,4 +75,3 @@
 			
 	![Diagram](https://github.com/aele1401/HacktheBox/blob/main/Archetype/Images/root.txt.png)
 
-Tags: Networks, Protocols, MSSQL, SMB, Impacket, Powershell, Penetration Tester, Reconnaissance, Remote Code Execution, Clear Text Credentials, Information Disclosure, Anonymous/Guest Access 
