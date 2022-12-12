@@ -2,6 +2,6 @@
 
 Archetype is a Windows machine, the task is to exploit a misconfiguration in Microsoft SQL Server, try getting a reverse shell and get familiarized with the use of Impacket tool in order to further attack some services.
 
-Tools: Kali, Windows, Nmap, MS SQL, Impacket, Powershell, Netcat, winPEAS, SMB
+Tools: Kali Linux, Windows, Nmap, MS SQL, Impacket, Powershell, Netcat, winPEAS, SMB
 
 Tags: Networks, Protocols, MSSQL, SMB, Impacket, Powershell, Penetration Tester, Reconnaissance, Remote Code Execution, Clear Text Credentials, Information Disclosure, Anonymous/Guest Access
