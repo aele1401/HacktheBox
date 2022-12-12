@@ -2,7 +2,7 @@
 
 ## Nmap & Footprinting
 
-- Run an nmap scan to collect IP, OS, version, scripts, and trace route information
+- Run an nmap scan to collect IP, OS, version, and port information
 	* `sudo nmap -sV -sC -oA ./nmap/archetype 10.129.181.76`
 - TCP port that is hosting the database is port `1433`
 
