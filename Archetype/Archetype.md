@@ -74,8 +74,5 @@
 	* Locate the root flag
 			
 	![Diagram](https://github.com/aele1401/HacktheBox/blob/main/Archetype/Images/root.txt.png)
-			
-		
 
-
-- 
+Tags: Networks, Protocols, MSSQL, SMB, Impacket, Powershell, Penetration Tester, Reconnaissance, Remote Code Execution, Clear Text Credentials, Information Disclosure, Anonymous/Guest Access 
