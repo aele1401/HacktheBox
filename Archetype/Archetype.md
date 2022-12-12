@@ -42,7 +42,7 @@
 	* `help`
 	* `enable xp_cmdshell`
 	* `RECONFIGURE`
-	* `xp_cmdshell "whoami"`
+	* Confirm the command shell is enabled with: `xp_cmdshell "whoami"`
 ## Netcat
 
 * Locate the "nc.exe" file on machine, if not installed, it will need to be installed.
