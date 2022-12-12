@@ -31,7 +31,7 @@
 
 - `Mssqlclient.py` script from impacket collection can be used in order to establish an authenticated connection to a Microsoft SQL Server. Since the credentials for the share has been acquired, locate and access MS SQL Client:
 	* `locate mssqlclient`
-	* `/usr/bin/impacket-mssqlclient ARCHETYPE/sql_svc@10.129.16.28 -windows -auth`
+	* `/usr/bin/impacket-mssqlclient ARCHETYPE/sql_svc@10.129.16.28 -windows-auth`
 	* Password: `M3g4c0rp123`
 
 ![Diagram](https://github.com/aele1401/HacktheBox/blob/main/Archetype/Images/accessing_mssqlclient.png)
