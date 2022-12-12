@@ -1,0 +1,6 @@
+winPEAS Download:
+https://github.com/carlospolop/PEASS-ng/releases/download/20221211/winPEASx64.exe
+
+NC.exe Download:
+https://github.com/int0x33/nc.exe/blob/master/nc.exe
+
