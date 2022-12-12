@@ -39,10 +39,10 @@
 ## XP Command Shell
 
 - `Xp_cmdshell` extended stored procedure of Microsoft SQL Server can be used in order to spawn a Windows command shell. Enable the xp_cmdshell, upload an Netcat listener and a reverse shell to establish a direct command line access.
-		* `help`
-		* `enable xp_cmdshell`
-		* `RECONFIGURE ;`
-		* xp_cmdshell `whoami`
+	* `help`
+	* `enable xp_cmdshell`
+	* `RECONFIGURE ;`
+	* xp_cmdshell `whoami`
 ## Netcat
 
 * Locate the "nc.exe" file on machine, if not installed, it will need to be installed.
